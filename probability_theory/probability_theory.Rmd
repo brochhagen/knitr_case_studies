@@ -489,7 +489,7 @@ $$
 <br><br>
 
 More formally we want the allocation of probability to any collection of 
-disjoint sets, $A_{n} \cap A_{m} = 0, n \ne m$, to be the same as the allocation 
+disjoint sets, $A_{n} \cap A_{m} = \emptyset, n \ne m$, to be the same as the allocation 
 to the union of those sets,
 $$
 \sum_{n = 1}^{N} \mathbb{P}_{\pi} [ A_{n} ]
@@ -569,7 +569,7 @@ $$
 \sum_{n = 1}^{\infty} \mathbb{P}_{\pi} [ A_{n} ],
 $$
 $$
-A_{n} \cap A_{m} = 0, \, n \ne m.
+A_{n} \cap A_{m} = \emptyset, \, n \ne m.
 $$
 
 The more familiar rules of probability theory can all be derived from these
@@ -971,7 +971,7 @@ for distributions on spheres and many other non-Euclidean spaces!  In practice
 one adds additional structure to distinguish unique moments, for example with 
 circular moments in the case of spheres.
 
-Unfortunately it is also common to for the _mean of a function_ to refer to its
+Unfortunately it is also common for the _mean of a function_ to refer to its
 expectation value,
 $$
 \mathbb{m}_{\pi} [f] = \mathbb{E}_{\pi} [ f ].
